@@ -1,0 +1,19 @@
+ScePerf:
+  attributes: 0
+  version:
+    major: 1
+    minor: 0
+  main:
+    start: module_start
+    stop: module_stop
+  libraries:
+    ScePerf:
+      nid: 0x447F047D
+      functions:
+        - scePerfArmPmonGetCounterValue: 0x6132A497
+        - scePerfArmPmonReset: 0x35151735
+        - scePerfArmPmonSelectEvent: 0x63CBEA8B
+        - scePerfArmPmonSetCounterValue: 0x12F6C708
+        - scePerfArmPmonSoftwareIncrement: 0x4264B4E7
+        - scePerfArmPmonStart: 0xC9D969D5
+        - scePerfArmPmonStop: 0xD1A40F54
